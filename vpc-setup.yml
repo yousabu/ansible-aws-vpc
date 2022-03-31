@@ -70,7 +70,7 @@
           Name: vprofile_privsub1
       register: privsub1_out
 
-      - name: create Private subnet 2 in zone2
+    - name: create Private subnet 2 in zone2
       ec2_vpc_subnet:
         vpc_id: "{{ vpcout.vpc.id }}"
         region: "{{ region }}"
@@ -83,7 +83,7 @@
 
 
 
-      - name: create Private subnet 3 in zone3
+    - name: create Private subnet 3 in zone3
       ec2_vpc_subnet:
         vpc_id: "{{ vpcout.vpc.id }}"
         region: "{{ region }}"
