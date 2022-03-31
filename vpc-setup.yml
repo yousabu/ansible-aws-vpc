@@ -107,7 +107,7 @@
       register: igw_out
 
 
-# Route table
+    # Route table
 
 
     - name: Set up oublic subnet route table
