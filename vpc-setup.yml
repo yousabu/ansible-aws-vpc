@@ -4,6 +4,7 @@
   tasks:
     - name: Import VPC variables
       include_vars: vars/vpc_setup
+
     - name: Create vprofile vpc
       ec2_vpc_net:
         name: "{{vpc_name}}}"
